@@ -1,0 +1,3 @@
+TEST_FOLDER = '_tests'
+TEMPFILE_PREFIX = '_smtdesc'
+MAX_OTHER_SOLUTIONS = 20

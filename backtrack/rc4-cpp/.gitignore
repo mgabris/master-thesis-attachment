@@ -1,0 +1,12 @@
+# (C)Make
+CMakeFiles
+CMakeCache.txt
+*.cmake
+Makefile
+
+*.gch
+
+# binaries
+backtrack
+backtrack_change
+tests
