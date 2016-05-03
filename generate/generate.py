@@ -274,7 +274,7 @@ def main(args):
         
         states[i][1] = revealed_state
 
-    write_states(states, args.initial)
+    write_states(states, args.smt)
 
 
 if __name__ == '__main__':

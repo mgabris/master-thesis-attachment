@@ -46,7 +46,7 @@ def parse_args():
              'and odd values on even indices)'
     )
     parser.add_argument(
-        '--initial',
+        '--smt',
         action='store_true',
         help='generate/print only initial fully revealed state, format for SMT '
              'code, not backtracking'
@@ -87,7 +87,7 @@ def parse_args():
         '-l', '--prefix_length',
         type=int,
         default=0,
-        help='lengthz of keystream from start after which the starting state of '
+        help='length of keystream from start after which the starting state of '
              'backtrack is (=0) '
     )
     
