@@ -9,7 +9,7 @@ $ cmake ./ && make
 ```
 
 ## Usage
-Each variant of backtrack comes with its own binary, accepts state file on stdin and needs 2 positional arguments (this setting is rather simple).
+Each variant of backtrack comes with its own binary, accepts state file on stdin and needs 2 positional arguments.
 
 ```bash
 Usage: ./backtrack [stop after state is found (0/1)] [verbosity]
@@ -19,7 +19,7 @@ Stop after state is found set to 0 forces backtrack to simulate estimate equatio
 
 Verbosity 2 prints default statistics about test file.
 
-# Implementácia extrakcie stavu prehľadávaním pre šifru Spritz
+# C++ implementácia prehľadávania pre šifru Spritz
 Tento adresár obsahuje implementáciu jednoduchého prehľadávania a vylepšenia použitím špeciálneho stavu v C++ pre šifru Spritz.
 
 ## Kompilácia
@@ -36,6 +36,6 @@ Každý variant prehľadávania má samostatný binárny súbor. Na štandardnom
 Usage: ./backtrack [stop after state is found (0/1)] [verbosity]
 ```
 
-Prvý argument nastavený na 0 nastaví prehľadávanie, aby pokračovalo aj po nájdení správneho počiatočného stavu.
+Prvý argument nastavený na 0 nastaví prehľadávanie tak, aby pokračovalo aj po nájdení správneho počiatočného stavu.
 
-Verbosity nastavené na 2 vypíše základné štatistiky o epxerimente.
+Verbosity nastavené na 2 vypíše základné štatistiky o experimente.
