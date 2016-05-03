@@ -1,5 +1,5 @@
 # C++ implementation of backtrack for Spritz
-This directory contains C++ implementation of basic and special state backtrack. 
+This directory contains C++ implementation of basic and special state backtrack for cipher Spritz. 
 
 ## Build
 To build binaries, invoke
@@ -20,7 +20,7 @@ Stop after state is found set to 0 forces backtrack to simulate estimate equatio
 Verbosity 2 prints default statistics about test file.
 
 # Implementácia extrakcie stavu prehľadávaním pre šifru Spritz
-Tento adresár obsahuje implementáciu jednoduchého prehľadávania a vylepšenia použitím špeciálneho stavu v C++.
+Tento adresár obsahuje implementáciu jednoduchého prehľadávania a vylepšenia použitím špeciálneho stavu v C++ pre šifru Spritz.
 
 ## Kompilácia
 Kód sa skompiluje príkazom
